@@ -1,0 +1,193 @@
+* {
+	padding: 0; margin: 0;
+}
+body {
+	background: #F0DFB4;
+}
+@font-face {
+  	font-family: tulisan_keren;
+    src: url(font/roboto.ttf);
+}
+@font-face {
+
+  	font-family: untuk_chat;
+    src: url(font/IndieFlower.ttf);
+}
+
+input:focus{
+	box-shadow: 0 0 15px #333;
+}
+#wrapper {
+	width: 800px;
+	/*margin: 0 auto;*/
+}
+#header {
+	background: #E84C3D;
+	padding: 10px 0;
+	/*margin: 0;*/
+	text-align: center;
+	font-family: 'tulisan_keren';
+	color: white;
+	font-size: 24px;
+	width: 100%;
+15*/
+}
+.fffting {
+	background: #C1392B;
+	padding: 10px 5px;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.setting img{
+	width: 30px;
+	float: right;
+	/*
+	position: relative;
+	bottom: 30px;*/
+}
+#msg {
+	margin-top: 50px;
+	background: #ECF0F1;
+	padding: 20px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 3px 0 8px #333;
+}
+#msg input {
+	border: 0px;
+	border-radius: 15px;
+}
+.input {
+	margin-left: 25px;
+	width: 65%;
+	height: 50px;
+}
+#msg input[type=text] {
+	padding-left: 20px;
+	font-size: 17px;
+	font-family: 'untuk_chat';
+}
+#msg .nama {
+	margin: 0px 0px 12px 25px;
+	display: block;
+}
+.emot {
+	margin-right: 15%;
+	margin-top: 0px;
+	float: right;
+}
+#kirim {
+	float: right;
+	position: relative;
+	bottom: 50px;
+	right: 60px;
+}
+#kirim input {
+	width: 100px;
+	height: 30px;
+	background: #BC291B;
+	color: white;
+}
+#kirim input:hover{
+	background: #700D0D;
+}
+.pembatas {
+	margin: 11px;
+}
+.pembatass {
+	margin: 100px;
+}
+
+
+/*  Kode CSS Login  */
+.kodenegara {
+	width: 100px;
+}
+#login {
+	background: rgba(60,128,132,0.8);
+	padding: 20px;
+	width: 428px;
+	color: white;
+	border-radius: 35px;
+	margin: 250px 50%;
+	border: 10px solid #7A4747;
+}
+.judul {
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+}
+.judul, .login input[type=submit]{
+	font-family: tulisan_keren;
+}
+.login, .login input[type=text], .login select {
+	font-family: untuk_chat;
+	font-size: 20px;
+}
+.login input[name=nama] {
+	margin-left: 20px;
+	width: 298px;
+}
+.login select {
+	margin-left: 10px;
+}
+.login input[type=submit]{
+	margin: 8px 0 0 250px;
+	background: #9D1717;
+	color: white;
+	border: 5px solid #333;
+	border-radius: 15px;
+	padding: 8px;
+}
+.login input[type=submit]:hover{
+	background: #510000;
+	border: 5px solid #000;
+	/*box-shadow: 0px 0px 1px #000;*/
+}
+/*---chat---*/
+
+.chat {
+	background: #fff;
+	/*margin: 20px 0 20px 0;*/
+	padding: 14px;
+	/*border-bottom: 4px solid #333;*/
+	position: relative;
+	margin-bottom: 15px;
+}
+.chat:after{
+ 	content:"";
+  	width:0px;
+  	height:0px;
+  	position:absolute;
+  	top:100%;
+  	left:20px;
+  	border-width:15px;
+  	border-style:solid;
+  	border-color:#fff transparent transparent transparent;
+  	display:block;
+}
+.tgl, .name{
+	border-radius: 15px;
+	padding: 4px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;	
+}
+.tgl {
+	background: #66A6B4;
+	/*font-size: 12px;*/
+
+}
+.name {
+	background: #BD2626;
+	/*min-width: 150px;*/
+	display: inline-block;
+}
+.poto img{
+	width: 50px;
+	height: 550px;
+}
